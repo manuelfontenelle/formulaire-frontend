@@ -36,7 +36,7 @@ $.addEventListener("DOMContentLoaded", () => {
 		try {
 			// const response = await axios.post("http://localhost:3000/form", data);
 			const response = await axios.post(
-				"https://formulaire-backend-mf.herokuapp.com//form",
+				"https://formulaire-backend-mf.herokuapp.com/form",
 				data
 			)
 
